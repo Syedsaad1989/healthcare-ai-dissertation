@@ -34,3 +34,22 @@
 - Outlier analysis.
 - Missing value visualisation.
 - Clinical feature interpretation.
+
+## Session 2 – 6 July 2026
+
+### Tasks completed
+- Loaded the Cleveland Heart Disease dataset.
+- Performed exploratory data analysis (EDA).
+- Examined feature distributions and missing values.
+- Generated correlation heatmap and boxplots.
+- Saved all visualisations to the Figures folder.
+- Successfully configured Git and synchronized the project with GitHub.
+
+### Outcome
+The dataset structure and quality are now understood. The project repository is fully configured, and the data is ready for preprocessing.
+
+### Next session
+- Create preprocessing pipeline.
+- Handle missing values.
+- Convert target variable to binary.
+- Save processed dataset.
