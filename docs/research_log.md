@@ -47,6 +47,40 @@
 
 ### Outcome
 The dataset structure and quality are now understood. The project repository is fully configured, and the data is ready for preprocessing.
+# Research Log
+
+## 06 July 2026 – Notebook 02: Data Preprocessing
+
+### Activities Completed
+- Loaded the Cleveland Heart Disease dataset from the UCI repository.
+- Verified dataset structure and dimensions (303 observations, 14 variables).
+- Investigated missing values and identified missing data in the `ca` and `thal` features.
+- Applied most-frequent-value imputation to handle missing values while preserving sample size.
+- Converted the original multi-class target variable into a binary classification target:
+  - 0 = No heart disease
+  - 1 = Presence of heart disease
+- Evaluated class distribution and confirmed that the dataset is relatively balanced (54.1% vs 45.9%).
+- Split the dataset into training and testing sets using stratified sampling (80/20 split).
+- Applied feature standardisation using StandardScaler.
+- Saved processed datasets for future modelling stages.
+- Saved the fitted scaler to support reproducibility.
+
+### Key Findings
+- Missing values were limited to two variables (`ca` and `thal`) and were successfully imputed.
+- No duplicate records were identified.
+- The dataset does not require SMOTE due to acceptable class balance.
+- Data preprocessing pipeline is now complete for the Heart Disease dataset.
+
+### Challenges Encountered
+- Initial file path issues occurred due to dataset folder structure.
+- Resolved path configuration using a modular dataset-loading approach.
+
+### Next Steps
+- Train baseline machine learning models:
+  - Logistic Regression
+  - Random Forest
+  - XGBoost
+- Evaluate models using Accuracy, Precision, Recall, F1-score and ROC-AUC.
 
 ### Next session
 - Create preprocessing pipeline.
