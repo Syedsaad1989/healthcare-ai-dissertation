@@ -29,12 +29,6 @@
 - Assigned attribute names manually.
 - Used `na_values='?'` when importing the dataset.
 
-### Next Session
-- Correlation analysis.
-- Outlier analysis.
-- Missing value visualisation.
-- Clinical feature interpretation.
-
 ## Session 2 – 6 July 2026
 
 ### Tasks completed
@@ -82,8 +76,35 @@ The dataset structure and quality are now understood. The project repository is 
   - XGBoost
 - Evaluate models using Accuracy, Precision, Recall, F1-score and ROC-AUC.
 
-### Next session
-- Create preprocessing pipeline.
-- Handle missing values.
-- Convert target variable to binary.
-- Save processed dataset.
+Session 3 (Classical Machine Learning Models)
+
+## 06 July 2026 – Notebook 02: Classical Machine Learning Models
+
+Duration: (4.5 hours)
+
+Objectives
+Develop baseline machine learning models for heart disease prediction.
+Compare multiple classical algorithms using a consistent evaluation framework.
+Tasks Completed
+Implemented Logistic Regression.
+Implemented Random Forest.
+Implemented XGBoost.
+Evaluated all models using:
+Accuracy
+Precision
+Recall
+F1-score
+ROC-AUC
+Confusion Matrix
+ROC Curve
+5-fold Cross-Validation
+Saved trained models using Joblib.
+Generated and exported the model comparison table (classical_ml_results.csv).
+Committed all work to Git and pushed changes to GitHub.
+Key Findings
+Random Forest achieved the highest overall predictive performance on the Cleveland Heart Disease dataset.
+Logistic Regression provided a strong and interpretable baseline.
+XGBoost performed competitively but did not outperform Random Forest on this dataset.
+Reflection
+
+The experiments demonstrated the importance of comparing multiple algorithms rather than assuming that more complex models automatically achieve superior performance. The results provide a strong baseline for comparison with the Deep Neural Network in the next phase of the project.
