@@ -76,6 +76,7 @@ The dataset structure and quality are now understood. The project repository is 
   - XGBoost
 - Evaluate models using Accuracy, Precision, Recall, F1-score and ROC-AUC.
 
+
 Session 3 (Classical Machine Learning Models)
 
 ## 06 July 2026 – Notebook 02: Classical Machine Learning Models
@@ -108,3 +109,38 @@ XGBoost performed competitively but did not outperform Random Forest on this dat
 Reflection
 
 The experiments demonstrated the importance of comparing multiple algorithms rather than assuming that more complex models automatically achieve superior performance. The results provide a strong baseline for comparison with the Deep Neural Network in the next phase of the project.
+
+### Next session
+- Create preprocessing pipeline.
+- Handle missing values.
+- Convert target variable to binary.
+- Save processed dataset.
+
+## Session 4 – Classical Machine Learning Models
+
+**Date:** 07 July 2026
+
+**Duration:** 4–5 hours
+
+### Objectives
+- Implement and compare classical machine learning models for heart disease prediction.
+
+### Activities Completed
+- Developed a Logistic Regression classifier.
+- Developed a Random Forest classifier.
+- Developed an XGBoost classifier.
+- Evaluated all models using Accuracy, Precision, Recall, F1-score and ROC-AUC.
+- Generated Confusion Matrices and ROC Curves.
+- Performed 5-fold Cross-Validation.
+- Saved trained models using Joblib.
+- Created and exported a comparison table (`classical_ml_results.csv`).
+- Committed Notebook 03 work to Git.
+
+### Key Findings
+- Random Forest achieved the highest predictive performance.
+- Logistic Regression provided a strong baseline.
+- XGBoost performed competitively but did not outperform Random Forest.
+
+### Reflection
+Notebook 03 established a complete baseline comparison of classical machine learning algorithms. These results will serve as the benchmark for evaluating the Deep Neural Network model in the next phase of the dissertation.
+
