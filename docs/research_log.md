@@ -144,3 +144,35 @@ The experiments demonstrated the importance of comparing multiple algorithms rat
 ### Reflection
 Notebook 03 established a complete baseline comparison of classical machine learning algorithms. These results will serve as the benchmark for evaluating the Deep Neural Network model in the next phase of the dissertation.
 
+## Session 4 – Deep Learning Model
+
+**Date:** 09 July 2026
+
+### Objectives
+- Develop a Deep Neural Network for heart disease prediction.
+- Compare its performance with classical machine learning models.
+
+### Activities Completed
+- Loaded the preprocessed training and testing datasets.
+- Built a Deep Neural Network using TensorFlow/Keras.
+- Applied dropout regularisation and early stopping.
+- Trained the model using the training dataset.
+- Evaluated performance using Accuracy, Precision, Recall, F1-score and ROC-AUC.
+- Generated learning curves, confusion matrix and ROC curve.
+- Saved the trained model (`deep_learning_model.keras`).
+- Created an updated comparison table including all four models.
+
+### Results
+- Accuracy: 0.8525
+- Precision: 0.8276
+- Recall: 0.8571
+- F1-score: 0.8421
+- ROC-AUC: 0.9524
+
+### Key Findings
+- The Deep Learning model achieved strong predictive performance.
+- Random Forest remained the best-performing model overall.
+- The findings indicate that classical ensemble methods can outperform deep learning on small structured tabular datasets.
+
+### Next Session
+- Perform SHAP explainability analysis for the best-performing model (Random Forest).
