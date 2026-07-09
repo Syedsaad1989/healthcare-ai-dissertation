@@ -146,7 +146,7 @@ Notebook 03 established a complete baseline comparison of classical machine lear
 
 ## Session 4 – Deep Learning Model
 
-**Date:** 09 July 2026
+**Date:** 08 July 2026
 
 ### Objectives
 - Develop a Deep Neural Network for heart disease prediction.
@@ -176,3 +176,31 @@ Notebook 03 established a complete baseline comparison of classical machine lear
 
 ### Next Session
 - Perform SHAP explainability analysis for the best-performing model (Random Forest).
+
+## Session 5 – SHAP Explainability Analysis
+
+**Date:** 09 July 2026
+
+### Objectives
+- Interpret the best-performing Random Forest model using SHAP.
+- Identify the most influential clinical features affecting heart disease prediction.
+
+### Activities Completed
+- Loaded the trained Random Forest model.
+- Applied SHAP (SHapley Additive Explanations).
+- Generated a global feature importance bar plot.
+- Generated a SHAP summary (beeswarm) plot.
+- Generated a SHAP waterfall plot for an individual prediction.
+- Saved all explainability visualisations.
+
+### Key Findings
+- SHAP successfully explained both global and local model behaviour.
+- The analysis identified the clinical variables with the greatest influence on heart disease prediction.
+- Explainability improves the transparency and trustworthiness of the machine learning model for healthcare applications.
+
+### Reflection
+The SHAP analysis demonstrated that high predictive accuracy alone is insufficient in healthcare. Providing explanations for individual predictions enhances model transparency and supports responsible use of AI in clinical decision-making.
+
+### Next Session
+- Prepare final model evaluation and dissertation-ready visualisations.
+- Summarise results from all machine learning and deep learning models.
