@@ -204,3 +204,38 @@ The SHAP analysis demonstrated that high predictive accuracy alone is insufficie
 ### Next Session
 - Prepare final model evaluation and dissertation-ready visualisations.
 - Summarise results from all machine learning and deep learning models.
+
+## Session 6 – Final Model Evaluation
+
+**Date:** 07 July 2026
+
+### Objectives
+- Compare all developed machine learning and deep learning models.
+- Identify the best-performing classifier.
+- Produce dissertation-ready figures and summary tables.
+
+### Activities Completed
+- Loaded the consolidated model comparison results.
+- Compared Logistic Regression, Random Forest, XGBoost and Deep Learning models.
+- Created accuracy comparison and overall performance comparison charts.
+- Identified the best-performing model based on evaluation metrics.
+- Exported the final results table for inclusion in the dissertation.
+
+### Key Findings
+- Random Forest achieved the highest overall predictive performance.
+- Deep Learning achieved competitive ROC-AUC performance but did not outperform Random Forest.
+- Classical ensemble learning methods proved highly effective for this structured clinical dataset.
+
+### Reflection
+The final evaluation confirmed that Random Forest is the most suitable model for heart disease prediction in this study. Combining predictive performance with SHAP explainability provides a transparent and reliable AI solution for healthcare applications.
+
+### Project Status
+- Notebook 01 – Exploratory Data Analysis ✓
+- Notebook 02 – Data Preprocessing ✓
+- Notebook 03 – Classical Machine Learning ✓
+- Notebook 04 – Deep Learning ✓
+- Notebook 05 – SHAP Explainability ✓
+- Notebook 06 – Final Model Evaluation ✓
+
+### Next Phase
+Begin dissertation writing using the generated figures, tables, and experimental results.
