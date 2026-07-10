@@ -238,4 +238,37 @@ The final evaluation confirmed that Random Forest is the most suitable model for
 - Notebook 06 – Final Model Evaluation ✓
 
 ### Next Phase
-Begin dissertation writing using the generated figures, tables, and experimental results.
+
+## Session 7 – Diabetes Dataset Exploratory Data Analysis
+
+**Date:** 10 July 2026
+
+### Objectives
+- Explore the structure and characteristics of the Pima Indians Diabetes dataset.
+- Identify data quality issues.
+- Assess class distribution and feature relationships.
+- Prepare the dataset for preprocessing and model development.
+
+### Activities Completed
+- Loaded the Pima Indians Diabetes dataset.
+- Examined dataset dimensions and feature information.
+- Investigated zero-valued clinical measurements representing missing data.
+- Confirmed there were no duplicate records.
+- Analysed the target class distribution.
+- Generated feature histograms, correlation heatmap, and boxplots.
+- Saved all visualisations to the Figures directory.
+
+### Key Findings
+- The dataset contains 768 patient records and 9 variables.
+- Zero values were identified in Glucose, Blood Pressure, Skin Thickness, Insulin, and BMI, indicating missing clinical measurements.
+- The dataset contains no duplicate observations.
+- The target variable shows a moderate class imbalance (65.1% non-diabetic, 34.9% diabetic).
+- Glucose, BMI, and Age demonstrate notable relationships with diabetes outcome.
+
+### Next Steps
+- Perform data preprocessing.
+- Impute missing clinical measurements.
+- Apply feature scaling.
+- Train and evaluate Logistic Regression, Random Forest, XGBoost, and Deep Learning models.
+- Interpret predictions using SHAP explainability.
+
