@@ -272,3 +272,29 @@ The final evaluation confirmed that Random Forest is the most suitable model for
 - Train and evaluate Logistic Regression, Random Forest, XGBoost, and Deep Learning models.
 - Interpret predictions using SHAP explainability.
 
+## Session 8 – Diabetes Predictive Modelling
+
+**Date:** 10 July 2026
+
+### Objectives
+- Preprocess the Pima Indians Diabetes dataset.
+- Develop and compare classical machine learning and deep learning models.
+- Evaluate predictive performance using multiple metrics.
+
+### Activities Completed
+- Replaced zero-valued clinical measurements with missing values.
+- Applied median imputation.
+- Standardised numerical features.
+- Trained Logistic Regression, Random Forest, XGBoost, and Deep Learning models.
+- Evaluated each model using Accuracy, Precision, Recall, F1-score, and ROC-AUC.
+- Saved trained models, preprocessing objects, and the model comparison table.
+
+### Key Findings
+- Random Forest achieved the highest overall predictive performance (Accuracy: 77.92%, ROC-AUC: 0.819).
+- Deep Learning produced competitive ROC-AUC but did not outperform Random Forest.
+- The results suggest that ensemble machine learning methods are well suited to this structured clinical dataset.
+
+### Next Steps
+- Apply SHAP explainability to the best-performing Random Forest model.
+- Identify the most influential clinical features associated with diabetes prediction.
+
