@@ -298,3 +298,30 @@ The final evaluation confirmed that Random Forest is the most suitable model for
 - Apply SHAP explainability to the best-performing Random Forest model.
 - Identify the most influential clinical features associated with diabetes prediction.
 
+## Session 9 – Diabetes SHAP Explainability
+
+**Date:** 11 July 2026
+
+### Objectives
+- Interpret the best-performing machine learning model for diabetes prediction using SHAP.
+- Identify the most influential clinical features.
+- Generate global and local model explanations.
+
+### Activities Completed
+- Loaded the trained Random Forest model.
+- Reconstructed the preprocessing pipeline using the saved imputer.
+- Applied SHAP TreeExplainer to the diabetes dataset.
+- Generated SHAP feature importance, summary, and waterfall plots.
+- Saved all SHAP visualisations to the Figures directory.
+
+### Key Findings
+- SHAP successfully identified the clinical variables with the greatest influence on diabetes prediction.
+- Global explanations highlighted the overall importance of each feature.
+- Local explanations demonstrated how individual patient characteristics contributed to model predictions.
+- The analysis improved model transparency and supported the interpretability of machine learning predictions.
+
+### Next Steps
+- Analyse the Breast Cancer dataset.
+- Develop and evaluate machine learning and deep learning models.
+- Apply SHAP explainability.
+- Perform a comparative analysis across all three datasets.
