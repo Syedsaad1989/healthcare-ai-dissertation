@@ -325,3 +325,44 @@ The final evaluation confirmed that Random Forest is the most suitable model for
 - Develop and evaluate machine learning and deep learning models.
 - Apply SHAP explainability.
 - Perform a comparative analysis across all three datasets.
+## Session 10 – Breast Cancer Analysis, Modelling and SHAP Explainability
+
+**Date:** 11 July 2026
+
+### Objectives
+- Analyse the Breast Cancer Wisconsin Diagnostic dataset.
+- Develop and compare machine learning and deep learning models.
+- Interpret the best-performing model using SHAP explainability.
+
+### Activities Completed
+- Loaded and explored the Breast Cancer Wisconsin Diagnostic dataset.
+- Verified dataset quality by checking missing values and duplicate records.
+- Converted the diagnosis variable into a binary target.
+- Performed exploratory data analysis using histograms, boxplots and a correlation heatmap.
+- Split the dataset into training and testing sets.
+- Applied feature standardisation using StandardScaler.
+- Trained four predictive models:
+  - Logistic Regression
+  - Random Forest
+  - XGBoost
+  - Deep Learning Neural Network
+- Evaluated all models using Accuracy, Precision, Recall, F1-score and ROC-AUC.
+- Saved trained models and preprocessing objects.
+- Generated a model comparison table.
+- Applied SHAP explainability to the Random Forest model.
+- Generated SHAP feature importance, summary and waterfall plots.
+
+### Key Findings
+- The Breast Cancer dataset achieved the highest predictive performance among all datasets analysed.
+- Logistic Regression achieved the highest ROC-AUC (0.9960).
+- Random Forest, XGBoost and Deep Learning achieved identical classification performance with an accuracy of 97.37%.
+- SHAP analysis identified the most influential tumour characteristics contributing to breast cancer classification and improved the interpretability of the machine learning model.
+
+### Reflection
+The Breast Cancer dataset demonstrated excellent separability between benign and malignant tumours, allowing all predictive models to achieve very high classification performance. SHAP explainability provided valuable insight into the clinical variables driving model predictions, reinforcing the transparency and trustworthiness of the selected Random Forest model.
+
+### Next Steps
+- Perform a comparative analysis across the Heart Disease, Diabetes and Breast Cancer datasets.
+- Compare machine learning and deep learning performance.
+- Summarise SHAP explainability findings.
+- Prepare the final tables and figures for the dissertation.
