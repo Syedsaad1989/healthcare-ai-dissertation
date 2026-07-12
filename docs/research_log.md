@@ -366,3 +366,35 @@ The Breast Cancer dataset demonstrated excellent separability between benign and
 - Compare machine learning and deep learning performance.
 - Summarise SHAP explainability findings.
 - Prepare the final tables and figures for the dissertation.
+
+## Session 11 – Cross-Dataset Comparative Analysis
+
+**Date:** 12 July 2026
+
+### Objectives
+- Compare the predictive performance of machine learning and deep learning models across the Heart Disease, Diabetes and Breast Cancer datasets.
+- Summarise SHAP explainability findings.
+- Produce publication-ready tables and visualisations for the dissertation.
+
+### Activities Completed
+- Combined model evaluation results from all three datasets into a single comparison table.
+- Compared Logistic Regression, Random Forest, XGBoost and Deep Learning models using Accuracy, Precision, Recall, F1-score and ROC-AUC.
+- Generated comparison charts for Accuracy, ROC-AUC and F1-score.
+- Identified the best-performing model for each dataset.
+- Compared SHAP explainability findings across all datasets.
+- Saved the combined comparison table and figures for use in the dissertation.
+
+### Key Findings
+- The Breast Cancer dataset achieved the highest predictive performance across all evaluated models.
+- Random Forest consistently achieved strong performance across multiple datasets.
+- The Diabetes dataset was the most challenging classification task, resulting in comparatively lower evaluation metrics.
+- SHAP explainability highlighted clinically meaningful features and improved model transparency.
+
+### Reflection
+This notebook completed the implementation phase of the dissertation by integrating results from all datasets into a unified comparative analysis. The outputs generated will form the basis of the Results and Discussion chapters.
+
+### Next Steps
+- Begin writing the dissertation chapters.
+- Integrate figures and tables into the Results chapter.
+- Interpret findings in relation to existing literature.
+- Prepare the dissertation for final submission.
